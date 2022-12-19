@@ -1,0 +1,171 @@
+/* font-family: 'Kanit', sans-serif;
+font-family: 'Londrina Solid', cursive; */
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Kanit', sans-serif;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(52, 173, 233, 0.75)),url(banner.jpg);
+    background-size:cover;
+    background-position:center;    
+}
+/* logo */
+.logo{
+    height: 60px;
+    width: 20%;
+    padding: 10px 10px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content:space-between;
+   align-items: center; 
+   height: 100px;
+}
+.navbar ul{
+    width: 500px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    color: black;
+    list-style: none;
+    margin-left: 8%;
+}
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+}
+.navbar ul li:hover{
+    cursor: pointer;
+}
+/* marquee tag */
+.marq{
+    text-transform: uppercase;
+    color: rgb(251, 250, 250);
+    background-color: rgba(46, 149, 177, 0.75);
+    height: 30px;
+    font-size: 25px;
+}
+.text1{
+    height: 100px;
+    /* padding: 50px 60px; top,bottom and left,right */
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center; 
+}
+.text1 h1{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:white;
+}
+.text1 p{
+    font-family: 'Rancho', cursive;
+    font-style: italic;
+    font-size:20px ;
+    color:#ffff;
+}
+.crouces{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+/* cse */
+.cse{
+    height: 300px;
+    width: 25%;
+    padding-left: 4%;
+    align-items: center;
+}
+.cse img{
+    width: 80%;
+    height: 250px;
+    border-radius: 30px 30px;
+    
+}
+/* aiml */
+.aiml{
+    height: 300px;
+    width: 25%;
+    padding-left: 4%;
+    align-items: center;
+}
+.aiml img{
+    width: 80%;
+    height: 250px;
+    border-radius: 30px 30px;
+    
+}
+/* ds */
+.ds{
+    height: 300px;
+    width: 25%;
+    padding-left: 4%;
+    align-items: center;
+}
+.ds img{
+    width: 80%;
+    height: 250px;
+    border-radius: 30px 30px;
+    
+}
+/* iot */
+.iot{
+    height: 300px;
+    width: 25%;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+}
+.iot img{
+    width: 80%;
+    height: 250px;
+    border-radius: 30px 30px;
+    
+}
+.text2{
+    text-align: center;
+    font-size: 50px;
+    color:#fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    width: 350px;
+    height: 200px;
+    color: white;
+    text-transform: uppercase;
+}
+.table input{
+    width:fit-content;
+    height: fit-content;
+    border-radius: 5px 5px 5px 5px;
+    border-width: 0px;
+    box-shadow: 1px 1px rgb(176, 176, 176);
+}
+.table textarea{
+    width:fit-content;
+}
+.table button{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px 7px 7px 7px; 
+    cursor: pointer;   
+    border-width: 0px;
+    
+}
+.table button:hover{
+    background-color: rgba(46, 149, 177, 0.75);
+    color: #fff;
+}
